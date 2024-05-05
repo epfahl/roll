@@ -1,0 +1,9 @@
+[package]
+edition = "2021"
+name = "roll"
+version = "0.1.0"
+
+[dependencies]
+clap = {version = "4.5.4", features = ["derive"]}
+rand = "0.8.5"
+rodio = "0.18.0"
